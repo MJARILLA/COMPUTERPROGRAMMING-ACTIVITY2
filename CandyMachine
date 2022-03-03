@@ -1,0 +1,63 @@
+package CandyMachine;
+import java.util.Scanner;
+public class CandyMachine {
+
+  public static void main(String[] args) throws Exception {
+  Scanner input = new Scanner(System.in);
+  
+    System.out.println("Welcome to Candy Machine!");
+    System.out.println("****Only accepting exact payment.****");
+        
+        
+    Scanner scanner = new Scanner(System.in);
+    
+        System.out.println(" Format on putting the desired candy:");
+        
+        System.out.println(" Name only of the product");
+        System.out.println("SELECTION: ");
+        System.out.println("1. CANDY = 5 ");
+        System.out.println("2. CHIPS = 10 ");
+        System.out.println("3. GUM = 5 ");
+        System.out.println("4. COOKIES = 20 ");
+        System.out.println(" ");
+        
+        int num;
+     float fnum;
+     String str;
+ 
+ Scanner in = new Scanner(System.in);
+ 
+ //Get input String Choice 
+     System.out.println(" Enter the choice: ");
+     str = in.nextLine();
+     System.out.println(" The choice is: "+ str);
+   
+   
+ //Get input float number
+     System.out.println("Enter the price: ");
+     fnum = in.nextFloat();
+     System.out.println("Price: "+ fnum); 
+     
+     
+     System.out.println("****************");
+     
+     System.out.println("****************");
+     System.out.println("Paying the exact payment...");
+      System.out.println("The payment is received.");
+     
+     System.out.println("*************************************");
+     System.out.println("Releasing the item chosen...");
+     System.out.println("Succesully released!");
+     System.out.println("****************");
+     
+     System.out.println("****************");
+     System.out.println("Thank you for purchasing.");
+     
+     System.out.println("*****************");
+     System.out.println("Hoping to serve you again!");
+
+     System.out.println("Enjoy!");
+
+  }
+
+}
